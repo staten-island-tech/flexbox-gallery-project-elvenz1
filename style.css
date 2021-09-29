@@ -1,0 +1,47 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 100% is 16px, and 62.5% is 10px which is the size we want. */
+}
+
+body {
+  background-color: #607d8b;
+  color: #ffffff;
+  font-family: "Cinzel", serif;
+}
+
+#title {
+  background-color: #536dfe;
+  text-align: center;
+  padding: 25px 15px;
+  border: 5px solid #455a64;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 8rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  font-size: 5rem;
+  height: 120vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  border: solid 1rem #455a64;
+}
+
+img {
+  height: 30vh;
+  width: 24vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
