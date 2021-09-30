@@ -17,7 +17,7 @@ body {
   background-color: #536dfe;
   text-align: center;
   padding: 25px 15px;
-  border: 5px solid #455a64;
+  border: 1.5rem solid #455a64;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 8rem;
@@ -37,11 +37,14 @@ body {
 
 .box {
   border: solid 1rem #455a64;
+  width: 30%;
 }
 
 img {
-  height: 30vh;
-  width: 24vw;
+  height: 30%;
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  box-sizing: border-box;
+  border: solid 1rem #ffffff;
 }
