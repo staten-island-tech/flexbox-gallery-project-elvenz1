@@ -16,19 +16,14 @@ body {
 #title {
   background-color: #536dfe;
   text-align: center;
-  padding: 2.5rem 1.5rem;
-  border: 1.5rem solid #ffab00;
+  padding: 25px 15px;
+  border: 1.5rem solid #ffc107;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 8rem;
   margin-bottom: 5rem;
   margin-top: 2rem;
-  box-shadow: -1.2rem -1rem 0.5rem 0.3rem #ffc107;
-  color: #ffd440;
-}
-
-#pretitle {
-  font-size: 3rem;
+  box-shadow: -1.2rem -1rem 0.5rem 0.3rem #ffd440;
 }
 
 .parent {
@@ -40,26 +35,25 @@ body {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  box-shadow: whitesmoke;
   text-align: center;
   flex-flow: column wrap;
 }
 
 .box {
   width: 30%;
-  flex-grow: 3;
   border: solid #ffab00;
+  margin: auto;
 }
 
-.imgs {
+.img {
   height: 30%;
   width: 100%;
   box-sizing: border-box;
-  border: solid 1rem #3f51b5;
-  box-shadow: -1.2rem -1rem 0.5rem 0.3rem rgba(0, 0, 255, 0.2);
+  border: solid 1rem #ffffff;
 }
 
 .subs {
   font-size: 3rem;
   padding: 2.5rem;
-  color: #ffc107;
 }
