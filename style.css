@@ -21,7 +21,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 8rem;
-  margin-bottom: 12rem;
+  margin-bottom: 5rem;
   margin-top: 2rem;
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem #ffc107;
   color: #ffd440;
@@ -33,18 +33,21 @@ body {
 
 .parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 5rem;
   height: 120vh;
-  width: 80vw;
+  width: 85vw;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   text-align: center;
+  flex-flow: column wrap;
 }
 
 .box {
   width: 30%;
+  flex-grow: 3;
+  border: solid #ffab00;
 }
 
 .imgs {
@@ -55,7 +58,7 @@ body {
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem rgba(0, 0, 255, 0.2);
 }
 
-h2 {
+.subs {
   font-size: 3rem;
   padding: 2.5rem;
   color: #ffc107;
