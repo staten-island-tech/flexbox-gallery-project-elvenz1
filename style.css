@@ -30,6 +30,7 @@ body {
 .parent {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   font-size: 5rem;
   height: 120vh;
   width: 85vw;
@@ -53,9 +54,10 @@ body {
   border: solid 1.5rem #9c8db9;
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem #d1c4e9;
   color: #ffc107;
+  transition: all 0.2s;
 }
 
 .imgs {
@@ -72,4 +74,17 @@ body {
 
 .bigtitle {
   font-size: 8rem;
+}
+
+.box1:hover {
+  transform: scale(1.1);
+}
+
+#title:hover {
+  transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.imgs:hover {
+  transform: scale(1.2);
 }
