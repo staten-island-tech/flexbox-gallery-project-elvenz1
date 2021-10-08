@@ -21,10 +21,11 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 4rem;
-  margin-bottom: 5rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem #d1c4e9;
   color: #ffc107;
+  outline-offset: 1.5rem;
 }
 
 .parent {
@@ -53,7 +54,7 @@ body {
   background-color: #536dfe;
   border: solid 1.5rem #9c8db9;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 5rem;
   margin-bottom: 6rem;
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem #d1c4e9;
   color: #ffc107;
@@ -80,11 +81,111 @@ body {
   transform: scale(1.1);
 }
 
+.imgs:hover .box1:not(:hover) {
+  transform: scale(0.7);
+  opacity: 0.3;
+}
+
 #title:hover {
   transform: scale(1.1);
-  transform: scale(1.1);
+  outline: 1rem solid #ffc107;
 }
 
 .imgs:hover {
   transform: scale(1.2);
+}
+
+.animation1 {
+  height: 2rem;
+  width: 2rem;
+  animation: load 8s infinite;
+  position: absolute;
+}
+@keyframes load {
+  0% {
+    left: 0%;
+    background-color: red;
+  }
+  20% {
+    left: 20%;
+    background-color: orange;
+  }
+  40% {
+    left: 40%;
+    background-color: yellow;
+  }
+  60% {
+    left: 60%;
+    background-color: green;
+  }
+  80% {
+    left: 80%;
+    background-color: blue;
+  }
+  100% {
+    left: 100%;
+    background-color: purple;
+  }
+}
+
+.animation2 {
+  height: 2rem;
+  width: 2rem;
+  animation: load2 8s infinite;
+  position: absolute;
+}
+@keyframes load2 {
+  0% {
+    left: 10%;
+    background-color: red;
+  }
+  20% {
+    left: 30%;
+    background-color: orange;
+  }
+  40% {
+    left: 50%;
+    background-color: yellow;
+  }
+  60% {
+    left: 70%;
+    background-color: green;
+  }
+  80% {
+    left: 90%;
+    background-color: blue;
+  }
+  100% {
+    left: 110%;
+    background-color: purple;
+  }
+}
+
+.animation3 {
+  height: 2rem;
+  width: 2rem;
+  animation: load3 8s infinite;
+  position: absolute;
+}
+@keyframes load3 {
+  0% {
+    left: 20%;
+    background-color: red;
+  }
+  20% {
+    left: 40%;
+    background-color: orange;
+  }
+  40% {
+    left: 60%;
+    background-color: yellow;
+  }
+  60% {
+    left: 80%;
+    background-color: green;
+  }
+  80% {
+    left: 100%;
+    background-color: blue;
+  }
 }
