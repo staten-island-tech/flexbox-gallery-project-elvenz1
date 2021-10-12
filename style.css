@@ -16,16 +16,16 @@ body {
 #title {
   background-color: #536dfe;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem 60rem;
   border: 1.5rem solid #9c8db9;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 4rem;
   margin-top: 8rem;
   margin-bottom: 1.5rem;
   box-shadow: -1.2rem -1rem 0.5rem 0.3rem #d1c4e9;
   color: #ffc107;
-  outline-offset: 1.2rem;
+  outline-offset: 1.1rem;
 }
 
 .parent {
@@ -62,11 +62,11 @@ body {
 }
 
 .imgs {
-  height: 40rem;
+  height: 45vh;
   width: 100%;
   box-sizing: border-box;
   border: 1rem solid #ffffff;
-  filter: blur(0.1rem);
+  filter: blur(0.15rem);
   transition: 0.5s;
 }
 
@@ -96,8 +96,8 @@ body {
   background-color: #7e57c2;
   position: center;
   margin: auto;
-  height: 5rem;
-  width: 25rem;
+  height: 7rem;
+  width: 33rem;
   font-size: 2rem;
   color: #82b1ff;
   font-weight: bold;
@@ -111,11 +111,15 @@ body {
 
 .box1:hover {
   transform: scale(1.1);
+  background-color: #f48fb1;
+  color: #ffe082;
+  border: solid 1rem #9ccc65;
 }
 
 #title:hover {
   transform: scale(1.1);
-  outline: solid 1rem #ffc107;
+  outline: solid 0.75rem #ffc107;
+  transition: 1s ease-in-out;
 }
 
 .imgs:hover {
@@ -159,5 +163,14 @@ body {
   100% {
     left: 100%;
     background-color: #42a5f5;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 80%;
+  }
+  .box1 {
+    width: 90%;
   }
 }
