@@ -16,13 +16,11 @@ body {
 #title {
   background-color: #536dfe;
   text-align: center;
-  padding: 1.5rem 60rem;
   border: 1.5rem solid #9c8db9;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 4rem;
-  margin: 10rem auto 3rem auto;
-  box-shadow: -1.2rem -1rem 0.5rem 0.3rem #d1c4e9;
+  padding: 1.5rem;
+  margin: 10rem 10rem 3rem 10rem;
+  box-shadow: -1rem -1rem 0.4rem 0.3rem #d1c4e9;
   color: #ffc107;
   outline-offset: 1.1rem;
 }
@@ -53,7 +51,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   border: 1rem solid #ffffff;
-  filter: blur(0.15rem);
+  filter: blur(0.2rem);
   transition: 0.5s;
 }
 
@@ -71,7 +69,6 @@ body {
 
 .button {
   background-color: #7e57c2;
-  position: center;
   margin: auto;
   height: 5rem;
   width: 35rem;
@@ -154,9 +151,27 @@ body {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  #title {
+    width: 75%;
+  }
+  .box1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #title {
+    width: 75%;
+  }
+  .box1 {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 700px) {
-  .head {
-    width: 50%;
+  #title {
+    width: 75%;
   }
   .box1 {
     width: 80%;
