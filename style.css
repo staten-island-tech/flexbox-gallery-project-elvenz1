@@ -19,7 +19,7 @@ body {
   border: 1.5rem solid #9c8db9;
   font-size: 4rem;
   padding: 1.5rem;
-  margin: 10rem 10rem 3rem 10rem;
+  margin: 9rem 9rem 3rem 9rem;
   box-shadow: -1rem -1rem 0.4rem 0.3rem #d1c4e9;
   color: #ffc107;
   outline-offset: 1.1rem;
@@ -28,8 +28,9 @@ body {
 .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 2rem 9rem 2rem 9rem;
+  justify-content: space-around;
+  margin: 2rem auto 2rem auto;
+  width: 90%;
 }
 
 .box1 {
@@ -57,6 +58,7 @@ body {
 
 #bigtitle {
   font-size: 8rem;
+  text-align: center;
 }
 
 .head {
@@ -153,27 +155,34 @@ body {
 
 @media screen and (max-width: 1600px) {
   #title {
-    width: 75%;
+    width: 90%;
   }
   .box1 {
-    width: 80%;
+    width: 30%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #title {
-    width: 75%;
+    width: 80%;
   }
   .box1 {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   #title {
-    width: 75%;
+    width: 100%;
+    transform: scale(0.8);
+    margin: 8rem auto 1rem auto;
+  }
+  #title:hover {
+    transform: scale(1);
+    outline: solid 0.75rem #ffc107;
+    transition: 1s ease-in-out;
   }
   .box1 {
-    width: 80%;
+    width: 90%;
   }
 }
