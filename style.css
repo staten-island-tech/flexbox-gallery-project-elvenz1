@@ -18,8 +18,8 @@ body {
   text-align: center;
   border: 1.5rem solid #9c8db9;
   font-size: 4rem;
-  padding: 1.5rem;
-  margin: 9rem 9rem 3rem 9rem;
+  padding: 1.5rem 30%;
+  margin: 9rem auto 3rem auto;
   box-shadow: -1rem -1rem 0.4rem 0.3rem #d1c4e9;
   color: #ffc107;
   outline-offset: 1.1rem;
@@ -58,7 +58,6 @@ body {
 
 #bigtitle {
   font-size: 8rem;
-  text-align: center;
 }
 
 .head {
@@ -72,8 +71,7 @@ body {
 .button {
   background-color: #7e57c2;
   margin: auto;
-  height: 5rem;
-  width: 35rem;
+  padding: 1rem 5rem;
   font-size: 2rem;
   color: #82b1ff;
   font-weight: bold;
@@ -100,6 +98,11 @@ body {
 
 .imgs:hover {
   filter: none;
+}
+
+#grays:hover {
+  filter: grayscale(90%);
+  transform: scale(0.9);
 }
 
 .animation1:hover {
@@ -155,7 +158,9 @@ body {
 
 @media screen and (max-width: 1600px) {
   #title {
-    width: 90%;
+    width: 100%;
+    margin: 7rem auto 1rem auto;
+    padding: 3rem 0;
   }
   .box1 {
     width: 30%;
@@ -164,7 +169,10 @@ body {
 
 @media screen and (max-width: 1024px) {
   #title {
-    width: 80%;
+    width: 100%;
+    transform: scale(0.7);
+    margin: 7rem auto 1rem auto;
+    padding: 3rem 0;
   }
   .box1 {
     width: 80%;
@@ -172,11 +180,6 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  #title {
-    width: 100%;
-    transform: scale(0.8);
-    margin: 8rem auto 1rem auto;
-  }
   #title:hover {
     transform: scale(1);
     outline: solid 0.75rem #ffc107;
