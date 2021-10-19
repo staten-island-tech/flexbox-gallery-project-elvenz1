@@ -17,7 +17,6 @@ body {
   background-color: #536dfe;
   text-align: center;
   border: 1.5rem solid #9c8db9;
-  font-size: 4rem;
   padding: 1.5rem 30%;
   margin: 9rem auto 3rem auto;
   box-shadow: -1rem -1rem 0.4rem 0.3rem #d1c4e9;
@@ -56,8 +55,12 @@ body {
   transition: 0.5s;
 }
 
-#bigtitle {
+#fontrem8 {
   font-size: 8rem;
+}
+
+#fontrem3 {
+  font-size: 3rem;
 }
 
 .head {
@@ -83,7 +86,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.box1:hover {
+.post:hover {
   transform: scale(1.1);
   background-color: #f48fb1;
   color: #ffe082;
@@ -162,7 +165,7 @@ body {
     margin: 7rem auto 1rem auto;
     padding: 3rem 0;
   }
-  .box1 {
+  .post {
     width: 30%;
   }
 }
@@ -170,22 +173,22 @@ body {
 @media screen and (max-width: 1024px) {
   #title {
     width: 100%;
-    transform: scale(0.7);
+    transform: scale(0.8);
     margin: 7rem auto 1rem auto;
     padding: 3rem 0;
   }
-  .box1 {
+  #title:hover {
+    transform: scale(0.9);
+    outline: solid 0.75rem #ffc107;
+    transition: 1s ease-in-out;
+  }
+  .post {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 400px) {
-  #title:hover {
-    transform: scale(1);
-    outline: solid 0.75rem #ffc107;
-    transition: 1s ease-in-out;
-  }
-  .box1 {
+  .post {
     width: 90%;
   }
 }
